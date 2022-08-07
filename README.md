@@ -77,7 +77,6 @@ Alongside software development and computer programming other professions can al
 ```
 Select * From Patients
 Where age > 50;
-
 ```
 
 Here database will first execute From statement then Where and finally Select statement.
@@ -102,7 +101,6 @@ There are five types of SQL commands.
 
     ```
      CREATE DATABASE Students;
-
     ```
 
     - 1.1.b Following code is for creating a table inside above db with name Grades.
@@ -113,7 +111,6 @@ There are five types of SQL commands.
     student_name varchar(255),
     grade int
     );
-
     ```
 
 ### 2. Data Manipulation Language (DML)
