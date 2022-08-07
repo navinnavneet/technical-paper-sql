@@ -97,13 +97,13 @@ Data definition language statements define, structurally change, and drop schema
 
 This statement is used to create a table or a database.
 
-1.1.a Following code is for creating a DB with name Students.
+- 1.1.1 Following code is for creating a DB with name Students.
 
 ```
-CREATE DATABASE Students;
+CREATE DATABASE StudentsDB;
 ```
 
-1.1.b Following code is for creating a table inside above db with name Grades.
+- 1.1.2 Following code is for creating a table inside above db with name Grades.
 
 ```
 CREATE TABLE Grades (
@@ -111,6 +111,44 @@ student_id int,
 student_name varchar(255),
 grade int
 );
+```
+
+#### 1.2 Drop
+
+This statement is used to drop an existing table or a database.
+
+- 1.2.1 Following code is for droping an existing db studentdsDB
+
+```
+ DROP DATABASE studentsDB;
+```
+
+Entire data is lost after using this statement
+
+- 1.2.2 Following code is for droping an existing table
+
+```
+DROP TABLE Grades;
+```
+
+#### 1.3 Alter
+
+This command is used to delete, modify or add constraints or columns in an existing table. ALTER TABLE statement is used with ADD/DROP Column command according to the need.
+
+```
+ ALTER TABLE TableName
+ ADD ColumnName Datatype;
+
+ ALTER TABLE TableName
+ DROP COLUMN ColumnName;
+```
+
+#### 1.4 TRUNCATE
+
+This command is used to delete the information present in the table but does not delete the table.
+
+```
+ TRUNCATE TABLE TableName;
 ```
 
 ### 2. Data Manipulation Language (DML)
