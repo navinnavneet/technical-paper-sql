@@ -90,11 +90,11 @@ There are five types of SQL commands.
 
 ![Alt text](https://static.javatpoint.com/dbms/images/dbms-sql-command.png "dbms-sql-command")
 
-### 1. Data Definition Language (DDL):
+### 1. Data Definition Language (DDL)
 
-    Data definition language statements define, structurally change, and drop schema objects. Such as, create, alter, delete etc. Some of the DDL statements are:
+    Data definition language statements define, structurally change, and drop schema objects. Such as, create, alter, delete etc. Some of the DDL statements are-
 
-#### 1.1 Create:
+#### 1.1 Create
 
     This statement is used to create a table or a database.
 
@@ -116,19 +116,19 @@ There are five types of SQL commands.
 
     ```
 
-### 2. Data Manipulation Language (DML):
+### 2. Data Manipulation Language (DML)
 
     The DML commands such as insert, update and delete are used for inserting, updating and deleting the structure of database objects.
 
-#### Data Control Language (DCL):
+#### Data Control Language (DCL)
 
     The DCL commands such as grant and revoke are used for providing security to database objects.
 
-#### Data Query Language (DQL):
+#### Data Query Language (DQL)
 
     The DQL command such as select is used for retrieving data from the database.
 
-#### Transaction Control Language (TCL):
+#### Transaction Control Language (TCL)
 
     TCL commands such as commit, rollback and savepoint is used for managing transactions in the database.
 
