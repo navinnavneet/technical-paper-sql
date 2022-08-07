@@ -20,7 +20,7 @@ SQL provides an interface to a relational database and unifies tasks such as the
 
 - Guaranteeing database consistency and integrity
 
-![Alt text](https://bookdown.org/paranedagarcia/database/images/sql-mapa.jpg "sql-map")
+![sql-map](https://bookdown.org/paranedagarcia/database/images/sql-mapa.jpg)
 
 ## Why SQL?
 
@@ -66,7 +66,7 @@ Alongside software development and computer programming other professions can al
 
 ## Phases Of Query Evaluation
 
-![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20220211155243/PhasesofQueryEvaluation.png "PhasesofQueryEvaluation")
+![PhasesofQueryEvaluation](https://media.geeksforgeeks.org/wp-content/uploads/20220211155243/PhasesofQueryEvaluation.png)
 
 - Parser/Translator: Parser checks the syntax and verifies the query. Translator converts command written in high-level language to low-level language.
 
@@ -87,7 +87,7 @@ Here database will first execute From statement then Where and finally Select st
 
 There are five types of SQL commands.
 
-![Alt text](https://static.javatpoint.com/dbms/images/dbms-sql-command.png "dbms-sql-command")
+![dbms-sql-command](https://static.javatpoint.com/dbms/images/dbms-sql-command.png)
 
 ### 1. Data Definition Language (DDL)
 
@@ -97,13 +97,13 @@ There are five types of SQL commands.
 
     This statement is used to create a table or a database.
 
-    - 1.1.a Following code is for creating a DB with name Students.
+    1.1.a Following code is for creating a DB with name Students.
 
     ```
      CREATE DATABASE Students;
     ```
 
-    - 1.1.b Following code is for creating a table inside above db with name Grades.
+    1.1.b Following code is for creating a table inside above db with name Grades.
 
     ```
     CREATE TABLE Grades (
