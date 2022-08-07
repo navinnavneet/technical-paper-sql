@@ -91,43 +91,43 @@ There are five types of SQL commands.
 
 ### 1. Data Definition Language (DDL)
 
-    Data definition language statements define, structurally change, and drop schema objects. Such as, create, alter, delete etc. Some of the DDL statements are-
+Data definition language statements define, structurally change, and drop schema objects. Such as, create, alter, delete etc. Some of the DDLstatements are-
 
 #### 1.1 Create
 
-    This statement is used to create a table or a database.
+This statement is used to create a table or a database.
 
-    1.1.a Following code is for creating a DB with name Students.
+1.1.a Following code is for creating a DB with name Students.
 
-    ```
-     CREATE DATABASE Students;
-    ```
+```
+CREATE DATABASE Students;
+```
 
-    1.1.b Following code is for creating a table inside above db with name Grades.
+1.1.b Following code is for creating a table inside above db with name Grades.
 
-    ```
-    CREATE TABLE Grades (
-    student_id int,
-    student_name varchar(255),
-    grade int
-    );
-    ```
+```
+CREATE TABLE Grades (
+student_id int,
+student_name varchar(255),
+grade int
+);
+```
 
 ### 2. Data Manipulation Language (DML)
 
-    The DML commands such as insert, update and delete are used for inserting, updating and deleting the structure of database objects.
+The DML commands such as insert, update and delete are used for inserting, updating and deleting the structure of database objects.
 
 #### Data Control Language (DCL)
 
-    The DCL commands such as grant and revoke are used for providing security to database objects.
+The DCL commands such as grant and revoke are used for providing security to database objects.
 
 #### Data Query Language (DQL)
 
-    The DQL command such as select is used for retrieving data from the database.
+The DQL command such as select is used for retrieving data from the database.
 
 #### Transaction Control Language (TCL)
 
-    TCL commands such as commit, rollback and savepoint is used for managing transactions in the database.
+TCL commands such as commit, rollback and savepoint is used for managing transactions in the database.
 
 ## Some Basic Commands
 
@@ -137,8 +137,8 @@ There are five types of SQL commands.
 
 - https://bookdown.org/paranedagarcia/database/sql.html
 
-  (for image used in introduction)
+(for image used in introduction)
 
 - https://www.geeksforgeeks.org/query-execution-engine-in-sql
 
-  (phases of query evaluation)
+(phases of query evaluation)
