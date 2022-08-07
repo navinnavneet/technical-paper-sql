@@ -40,4 +40,4 @@ Alongside software development and computer programming other professions can al
 
 - Business Strategists
 
-- Health Care Professionals
+* Health Care Professionals
